@@ -1,4 +1,4 @@
-# Kafka Camunda Example
+# lab06-camunda-kafka-demo
 A sample Camunda process that interacts with Kafka. 
 
 ## Show me the important parts!
@@ -19,8 +19,11 @@ This project was heavily based in the following tutorial: https://www.baeldung.c
 For more information on Camunda message correlation, please check: https://docs.camunda.org/manual/7.12/reference/bpmn20/events/message-events/
 
 ## How to use it?
-Start Apache Kafka in the default manner. Please check it here: https://kafka.apache.org/quickstart 
+Start Apache Kafka using the provided [docker-compose](/docker/docker-compose.yml) file in this project:
 
+```bash
+$ docker/docker-compose up
+```
 The topics configuration is done automatically by the class [KafkaTopicConfig](src/main/java/org/camunda/bpm/demo/config/KafkaTopicConfig.java).
 
 You can start by running a POST against the endpoint **http://localhost:8080/message-process/start**:
@@ -49,7 +52,7 @@ You should use the same correlation id as before, so you can consume the message
 At the end of the process, you should see a JSON posted in the topic **service-task-message-topic**.
 
 ## Environment Restrictions
-This project uses Camunda 7.12.5-ee with Spring Boot.
+This project uses Camunda 7.15.0 community edition with Spring Boot.
 
 ## Known Limitations
 

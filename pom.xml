@@ -16,7 +16,7 @@
       <dependency>
         <groupId>org.camunda.bpm</groupId>
         <artifactId>camunda-bom</artifactId>
-        <version>7.12.5-ee</version>
+        <version>7.15.0</version>
         <scope>import</scope>
       </dependency>
     </dependencies>
@@ -27,20 +27,20 @@
   </properties>
 
   <groupId>org.camunda.bpm.demo</groupId>
-  <artifactId>kakfa-demo</artifactId>
+  <artifactId>camunda-kafka-demo</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 
   <dependencies>
     <dependency>
       <groupId>org.camunda.bpm.springboot</groupId>
       <artifactId>camunda-bpm-spring-boot-starter-rest</artifactId>
-      <version>3.4.2</version>
+      <version>7.15.0</version>
     </dependency>
 
     <dependency>
       <groupId>org.camunda.bpm.springboot</groupId>
-      <artifactId>camunda-bpm-spring-boot-starter-webapp-ee</artifactId>
-      <version>3.4.2</version>
+      <artifactId>camunda-bpm-spring-boot-starter-webapp</artifactId>
+      <version>7.15.0</version>
     </dependency>
 
     <dependency>
