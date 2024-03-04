@@ -52,7 +52,7 @@ You should use the same correlation id as before, so you can consume the message
 At the end of the process, you should see a JSON posted in the topic **service-task-message-topic**.
 
 ## Environment Restrictions
-This project uses Camunda 7.15.0 community edition with Spring Boot.
+This project uses Camunda 7.20.0 community edition with Spring Boot.
 
 ## Known Limitations
 

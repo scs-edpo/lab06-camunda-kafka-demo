@@ -5,6 +5,9 @@ camunda.bpm:
     id: demo
     password: demo
   filter.create: All Tasks
+  generic-properties:
+    properties:
+      historyTimeToLive: P1D
 
 kafka:
   bootstrap-address: localhost:9092
