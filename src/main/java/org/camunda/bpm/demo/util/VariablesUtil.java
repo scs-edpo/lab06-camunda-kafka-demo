@@ -1,10 +1,8 @@
 package org.camunda.bpm.demo.util;
 
-import lombok.SneakyThrows;
 import lombok.experimental.UtilityClass;
 import org.camunda.bpm.demo.dto.CamundaMessageDto;
 import org.camunda.bpm.demo.dto.MessageProcessDto;
-import org.camunda.bpm.engine.variable.VariableMap;
 
 import java.beans.BeanInfo;
 import java.beans.IntrospectionException;

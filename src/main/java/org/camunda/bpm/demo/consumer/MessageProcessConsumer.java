@@ -12,7 +12,6 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class MessageProcessConsumer {
 
-    private final RuntimeService runtimeService;
     private final MessageService messageService;
     private final static String MESSAGE_START = "MessageKafkaDemo";
     private final static String MESSAGE_INTERMEDIATE = "MessageIntermediate";
