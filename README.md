@@ -22,7 +22,7 @@ For more information on Camunda message correlation, please check: https://docs.
 Start Apache Kafka using the provided [docker-compose](/docker/docker-compose.yml) file in this project:
 
 ```bash
-$ docker/docker-compose up
+$ docker/docker compose up
 ```
 The topics configuration is done automatically by the class [KafkaTopicConfig](src/main/java/org/camunda/bpm/demo/config/KafkaTopicConfig.java).
 
